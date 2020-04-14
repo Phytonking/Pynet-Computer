@@ -1,0 +1,32 @@
+[[package]]
+category = "main"
+description = "Module for common login service"
+name = "login"
+optional = false
+python-versions = ">=3"
+version = "0.0.6"
+
+[[package]]
+category = "main"
+description = "Efficiently manipulate IPv4 and IPv6 addresses"
+name = "pynet"
+optional = false
+python-versions = "*"
+version = "0.8.3"
+
+[[package]]
+category = "main"
+description = "Easy to use package for RSSI scanning and utilizing RSSI-based self-localization."
+name = "rssi"
+optional = false
+python-versions = "*"
+version = "1.0.2"
+
+[metadata]
+content-hash = "836f05a37682ae375a021059216c3fe5a30db9a9ce710d3c8ae2c49fa9f77c39"
+python-versions = "^3.7"
+
+[metadata.hashes]
+login = ["d3edf1e1a9ac26f43c4db7e2beb7649e411087f3a52f99a937740ba57f3d0e81"]
+pynet = ["6ccd24c7ef21bf2b1af413479689a6e8ab200937493a5dddf100ffbaecf80075", "f57078d62496bdfb1dc767d0e10dcb77c48aae4d3db3caf9acaa0b4c55ab7bd9"]
+rssi = ["75d5b5875cb24aa8859bc7e91b0a48317415f3043ab242fbb961cafdcebacecc", "f1190e929fa92c4f66e1be42aeb4f94dd621ece5c90694f09549483e9905641a"]
